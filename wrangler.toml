@@ -1,0 +1,7 @@
+name = "hangman"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "ROOMS"
+id = "b44c4378f04e440cb40a9612c08cf271"
