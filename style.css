@@ -1,0 +1,8 @@
+body{
+background:#111;
+color:#fff;
+text-align:center;
+font-family:sans-serif;
+}
+button{margin:5px;padding:10px;}
+.hidden{display:none;}

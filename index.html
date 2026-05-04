@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hangman CF</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+<h1>Висельник</h1>
+<button onclick="createRoom()">Создать</button>
+<input id="roomInput" placeholder="Код">
+<button onclick="joinRoom()">Войти</button>
+</div>
+
+<div id="game" class="hidden">
+<h2 id="roomCode"></h2>
+<p id="word"></p>
+<div id="letters"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
